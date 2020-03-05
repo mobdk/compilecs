@@ -5,7 +5,7 @@ If one don't want to use VS to compile C# and insert entrypoint in dll, grap a c
 
 compile.bat:
 
-del C:\compile\%1.il
+del C:\compile\\%1.il
 
 del C:\compile\%1.res
 
