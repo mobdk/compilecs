@@ -1,7 +1,7 @@
 # compilecs
 Use build-in compiler csc.exe and other tools to insert entrypoint in dll
 
-If one don't want to use VS to compile C# and insert entrypoint in dll, grap a copy of ildasm.exe from SDK, remember to copy assemble DLL's to C:\compile or add then with /r
+If one don't want to use VS to compile C# and insert entrypoint in dll, grap a copy of ildasm.exe from SDK, remember to copy assemble DLL's to C:\compile and add them with /r
 
 compile.bat:
 
