@@ -27,8 +27,11 @@ then notepad open magic.il file, insert .export [1], in this example the Main() 
 
 
   .method private hidebysig static void  Main() cil managed
+  
   {
+  
   .export [1]
+  
     // Code size       101 (0x65)
     .maxstack  6
     .locals init (uint8[] V_0,
