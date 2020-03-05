@@ -7,9 +7,9 @@ compile.bat:
 
 del C:\compile\\%1.il
 
-del C:\compile\%1.res
+del C:\compile\\%1.res
 
-del C:\compile\%1.dll
+del C:\compile\\%1.dll
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /platform:anycpu /r:System.Management.Automation.dll /target:library /unsafe %1.cs
 
 C:\compile\ildasm.exe /out:%1.il %1.dll
