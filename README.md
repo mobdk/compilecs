@@ -26,6 +26,7 @@ then notepad open magic.il file, insert .export [1], in this example the Main() 
 
 
 
+
   .method private hidebysig static void  Main() cil managed
   
   {
