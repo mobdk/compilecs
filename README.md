@@ -14,7 +14,7 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /platform:anycpu /r:Syst
 
 C:\compile\ildasm.exe /out:%1.il %1.dll
 
-notepad.exe C:\compile\%1.il
+notepad.exe C:\\compile\%1.il
 
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ilasm.exe %1.il /DLL /output=%1.dll
 
