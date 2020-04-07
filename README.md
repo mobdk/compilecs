@@ -16,7 +16,7 @@ C:\compile\ildasm.exe /out:%1.il %1.dll
 
 notepad.exe C:\\compile\\%1.il
 
-C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ilasm.exe %1.il /DLL /output=%1.dll
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ilasm.exe /X64 %1.il /DLL /output=%1.dll
 
 example: (the file is called magic.cs)
 
